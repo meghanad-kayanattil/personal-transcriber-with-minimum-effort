@@ -39,7 +39,7 @@ if st.button(label = 'Record', key = 'start'):
     record.start()
     transcribe = Thread(target=hf.speech_recognition, args=(messages, recordings, output,))
     transcribe.start()
-    st.write('Recording started with '+ str(device)+' of index = '+str(index))    
+    st.write('Recording started with '+ str(device)+' of index = '+str(index)+' There will be a small delay between recording and the transcription being produced, thank you for your patience')    
 
     if st.button("Stop recording", key = 'stop_'+str(i), on_click=callback):
         st.write("Recording stopped")

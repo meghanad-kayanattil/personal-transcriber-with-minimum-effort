@@ -1,13 +1,13 @@
 import pyaudio 
 from vosk import Model, KaldiRecognizer
-import time
 import json
-model = Model(model_name="vosk-model-small-en-us-0.15")
-
+model = Model(model_name="vosk-model-en-us-0.22")
+import speech_recognition as sr
+r = sr.Recognizer()
 
 CHANNELS = 1
 FRAME_RATE = 16000
-RECORD_SECONDS = 10
+RECORD_SECONDS = 20
 AUDIO_FORMAT = pyaudio.paInt16
 SAMPLE_SIZE = 2
 
