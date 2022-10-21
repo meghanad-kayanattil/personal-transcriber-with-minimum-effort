@@ -15,7 +15,7 @@ messages = queue.Queue()
 recordings = queue.Queue()
 output = queue.Queue()
 
-st.title("Personal trnascriber 🎤")
+st.title("Personal transcriber 🎤")
 
 st.write("""
 ### A simple speech to text app
