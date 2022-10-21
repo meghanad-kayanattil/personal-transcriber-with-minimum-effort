@@ -41,5 +41,5 @@ You now have the app running in your system locally!
  
 ## References
 
-The project was inspired based on this video
+The project was inspired based on [this](https://www.youtube.com/watch?v=2kSPbH4jWME&list=PLR04b6DveHfwoX2Z1Zwk84c2f48sDm6dF&index=1&t=1401s&ab_channel=Dataquest) video
 
