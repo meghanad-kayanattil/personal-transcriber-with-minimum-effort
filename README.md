@@ -9,6 +9,8 @@ The project uses, three popular opensource libraries to implement the speech to 
 
 ## Screen shots
 
+![App Screenshot](https://github.com/meghanad-kayanattil/personal-transcriber-with-minimum-effort/blob/main/Screenshot.png)
+
 
 ## Run Locally
 
