@@ -1,4 +1,3 @@
-from threading import Thread
 import pyaudio
 import streamlit as st
 import queue
